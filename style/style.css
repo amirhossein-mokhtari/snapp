@@ -19,7 +19,7 @@ header nav .sd {
   display: inline-block;
   position: relative;
 }
-header nav .sd:hover .qw {
+header nav .sd :hover .qw {
   display: block;
 }
 header nav .qw {
@@ -40,14 +40,14 @@ header nav .qw a {
   right: 10%;
   color: rgb(0, 0, 0);
 }
-header nav .qw a:hover {
+header nav .qw a :hover {
   color: rgb(23, 243, 107);
 }
 header nav .nm {
   position: relative;
   display: inline-block;
 }
-header nav .nm:hover .kk {
+header nav .nm :hover .kk {
   display: block;
 }
 header nav .kk {
@@ -66,7 +66,7 @@ header nav .kk a {
   right: 8%;
   color: rgb(0, 0, 0);
 }
-header nav .kk a:hover {
+header nav .kk a :hover {
   color: rgb(23, 243, 107);
 }
 header nav ul img.s {
@@ -160,6 +160,48 @@ header .s1 p {
   top: 47%;
   right: 28%;
   font-size: 27px;
+}
+
+main .box {
+  position: absolute;
+  top: 90%;
+}
+main .box .icon {
+  padding: 120px 30px;
+  background-color: #f2f5f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  top: 180px;
+}
+main .box .icon .boxx {
+  width: 500px;
+  height: 130px;
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 20px;
+  position: relative;
+}
+main .box .icon .boxx h3 {
+  font-size: 20px;
+  color: #3f3f3f;
+  width: 150px;
+}
+main .box .icon .boxx p {
+  position: absolute;
+  right: 70px;
+  padding-top: 40px;
+  font-size: 20px;
+  color: #3f3f3f;
+}
+main .box .icon .item {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

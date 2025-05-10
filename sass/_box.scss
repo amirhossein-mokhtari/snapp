@@ -1,0 +1,47 @@
+main {
+  .box {
+    position: absolute;
+    top: 90%;
+    .icon {
+      padding: 120px 30px;
+      background-color: #f2f5f8;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+      position: relative;
+      top: 180px;
+
+      .boxx {
+        width: 500px;
+        height: 130px;
+        background-color: #ffffff;
+        display: flex;
+        border-radius: 20px;
+        position: relative;
+
+        h3 {
+          font-size: 20px;
+          color: #3f3f3f;
+          width: 150px;
+        }
+
+        p {
+          position: absolute;
+          right: 70px;
+          padding-top: 40px;
+          font-size: 20px;
+          color: #3f3f3f;
+        }
+      }
+
+      .item {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+    }
+  }
+}
