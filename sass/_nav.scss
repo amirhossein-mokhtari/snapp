@@ -1,11 +1,11 @@
-@mixin box($position, $display) {
+@mixin nav($position, $display){
   display: $display;
   position: $position;
 }
 header {
   nav {
     .sd {
-      @include nav(relative, inline-block);
+      @include nav(relative,inline-block);
 
       :hover .qw {
         display: block;
@@ -13,7 +13,7 @@ header {
     }
 
     .qw {
-      @include nav(absolute, none);
+      @include nav(absolute,none);
       width: 220px;
       height: 400px;
       border-radius: 10px;
@@ -35,14 +35,14 @@ header {
     }
 
     .nm {
-      @include nav(relative, inline-block);
+      @include nav(relative,inline-block);
 
       :hover .kk {
         display: block;
       }
     }
     .kk {
-      @include nav(absolute, none);
+      @include nav(absolute,none);
       width: 200px;
       height: 110px;
       border-radius: 10px;
@@ -68,7 +68,7 @@ header {
       }
 
       li {
-        @include nav(relative, inline-block);
+        @include nav(relative,inline-block);
         margin: 30px;
         font-size: 20px;
       }

@@ -40,7 +40,7 @@ main {
       }
 
       .item {
-            @include box(flex,center);
+       @include box(flex,center);
         align-self: center;
         flex-direction: column;
       }
