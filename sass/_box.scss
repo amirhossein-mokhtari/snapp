@@ -1,13 +1,16 @@
+@mixin box($display,$justify-content){
+  display: $display;
+  justify-content: $justify-content;
+}
 main {
   .box {
-    position: absolute;
     top: 90%;
     .icon {
+    @include box(flex,space-around);
+    position: absolute;
       padding: 120px 30px;
       background-color: #f2f5f8;
-      display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
       align-items: center;
       gap: 20px;
       position: relative;
@@ -37,9 +40,8 @@ main {
       }
 
       .item {
-        display: flex;
+            @include box(flex,center);
         align-self: center;
-        justify-content: center;
         flex-direction: column;
       }
     }
