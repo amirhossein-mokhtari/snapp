@@ -1,13 +1,13 @@
-@mixin box($display,$justify-content){
-  display: $display;
-  justify-content: $justify-content;
+@mixin flex($position,$justify){
+  display: flex;
+  justify-content: $justify;
+  position: $position;
 }
 main {
   .box {
     top: 90%;
     .icon {
-    @include box(flex,space-around);
-    position: absolute;
+    @include flex(absolute,space-around );
       padding: 120px 30px;
       background-color: #f2f5f8;
       flex-wrap: wrap;
