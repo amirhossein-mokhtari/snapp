@@ -13,6 +13,8 @@
 body {
   font-family: vazir;
   direction: rtl;
+  height: 200%;
+  width: 100%;
 }
 
 header nav .sd {
@@ -36,7 +38,7 @@ header nav .qw {
   margin-bottom: 100px;
 }
 header nav .qw a {
-  position: relative;
+  position: absolute;
   right: 10%;
   color: rgb(0, 0, 0);
 }
